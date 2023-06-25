@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  background-color: #000;
+  display: flex;
+  justify-content: center;
+  font-family: "Poppins", sans-serif;
+  align-items: center;
+}
+.container .wrapper {
+  width: 550px;
+  height: -moz-fit-content;
+  height: fit-content;
+  background-color: #111;
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.container .wrapper header {
+  display: flex;
+  align-items: center;
+  height: 50px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.container .wrapper header .input {
+  width: 90%;
+  height: 100%;
+  outline: none;
+  border: 0;
+  padding: 0 10px;
+  font-size: 18px;
+  cursor: auto;
+}
+.container .wrapper header button {
+  width: 120px;
+  height: 100%;
+  font-size: 22px;
+  cursor: pointer;
+  background-color: #fff;
+}
+.container .wrapper .main {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.container .wrapper .main .range-box {
+  display: flex;
+  color: #fff;
+  justify-content: space-between;
+}
+.container .wrapper .main .range-box h3 {
+  font-size: 25px;
+}
+.container .wrapper .main .range-box .range-value {
+  font-size: 30px;
+}
+.container .wrapper .main #range {
+  cursor: pointer;
+}
+.container .wrapper .main .settings {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.container .wrapper .main .settings .item {
+  height: 40px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  font-size: 24px;
+  color: #ddd;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+.container .wrapper .main .generete-btn {
+  height: 60px;
+  border-radius: 10px;
+  font-size: 30px;
+}/*# sourceMappingURL=main.css.map */

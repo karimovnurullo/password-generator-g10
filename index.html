@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Password Generator</title>
+   <link rel="stylesheet" href="./main.css">
+</head>
+
+<body>
+   <div class="container">
+      <div class="wrapper">
+         <header>
+            <input type="text" class="input" readonly>
+            <button class="copy">Copy</button>
+         </header>
+         <main class="main">
+            <div class="range-box">
+               <h3>Characters</h3>
+               <div class="range-value">0</div>
+            </div>
+            <input type="range" name="" value="10" min="8" max="30" id="range" oninput="updateInputValue(this.value)">
+            <div class="settings">
+               <label class="item">
+                  <input type="checkbox" class="uppercase">
+                  Uppercase letters
+               </label>
+               <label class="item">
+                  <input type="checkbox" class="lowercase">
+                  Lowercase letters
+               </label>
+               <label class="item">
+                  <input type="checkbox" class="numbers">
+                  Numbers
+               </label>
+               <label class="item">
+                  <input type="checkbox" class="symbols">
+                  Symbols
+               </label>
+            </div>
+            <button class="generete-btn">Generate</button>
+         </main>
+      </div>
+   </div>
+   <script src="./app.js"></script>
+</body>
+
+</html>
